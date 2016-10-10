@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mieszkanie_s._338
+namespace Gra_w_chowanego
 {
-    abstract class Lokacja
+    abstract class Lokal
     {
         string nazwa;
-        public Lokacja(string _nazwa)
+        public Lokal(string _nazwa)
         {
             this.nazwa = _nazwa;
         }
@@ -17,7 +17,7 @@ namespace Mieszkanie_s._338
         {
             get { return nazwa; }
         }
-        public Lokacja[] Wyjscia;
+        public Lokal[] Wyjscia;
 
         public virtual string Opis
         {

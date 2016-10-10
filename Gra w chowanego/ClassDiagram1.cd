@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Gra_w_chowanego.Form1" Collapsed="true">
+    <Position X="11.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAQAAiAAIAgAAACgAIBCAAACAQAAAAACIBAAAAA=</HashCode>
+      <FileName>Form1.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gra_w_chowanego.Lokal" Collapsed="true">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAABAAAAAAAAAAAAAAAAAAgAAAAIAA=</HashCode>
+      <FileName>Lokal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gra_w_chowanego.PomieszczenieZdrzwiami">
+    <Position X="5.5" Y="7" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAEAAAAAAAAAAAAAACAAAAAAAAAAAIA=</HashCode>
+      <FileName>PomieszczenieZdrzwiami.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Gra_w_chowanego.ZewnatrzZdrzwiami">
+    <Position X="1" Y="7" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAAAEAAAAAAAAAAAAAACAAAAAAAAAAAIA=</HashCode>
+      <FileName>ZewnatrzZdrzwiami.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Gra_w_chowanego.Pomieszczenie">
+    <Position X="6" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAgAAAABAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Pomieszczenie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gra_w_chowanego.PomieszczenieZkryjowka">
+    <Position X="5.75" Y="4.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>PomieszczenieZkryjowka.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Gra_w_chowanego.Program" Collapsed="true">
+    <Position X="11.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gra_w_chowanego.Zewnatrz">
+    <Position X="1.25" Y="1.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAABAAAAAAAAAAAAAEAAAABAAAAAAA=</HashCode>
+      <FileName>Zewnatrz.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gra_w_chowanego.ZewnatrzZkryjowka">
+    <Position X="1" Y="4.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ZewnatrzZkryjowka.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.452" />
+  </Class>
+  <Class Name="Gra_w_chowanego.Properties.Resources" Collapsed="true">
+    <Position X="11.75" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Gra_w_chowanego.Properties.Settings" Collapsed="true">
+    <Position X="11.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="Gra_w_chowanego.IKryjowka">
+    <Position X="11.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IKryjowka.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Gra_w_chowanego.IPosiadaDrzwiZewnetrzne" Collapsed="true">
+    <Position X="11.75" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>IPosiadaDrzwiZewnetrzne.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

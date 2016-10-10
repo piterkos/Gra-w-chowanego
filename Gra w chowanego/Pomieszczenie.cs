@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mieszkanie_s._338
+namespace Gra_w_chowanego
 {
-    class Pomieszczenie:Lokacja
+    class Pomieszczenie:Lokal
     {
         string dekoracje;
         string Dekoracje { get; }

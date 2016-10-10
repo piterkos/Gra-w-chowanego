@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mieszkanie_s._338
+namespace Gra_w_chowanego
 {
-    class Zewnatrz:Lokacja
+    class Zewnatrz:Lokal
     {
         public Zewnatrz(string _nazwa, bool czyGoraco) :base(_nazwa)
         {

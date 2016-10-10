@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Gra_w_chowanego
 {
-    interface IPosiadaDrzwiZewnetrzne
+    interface IKryjowka
     {
-        string OpisDrzwi { get;}
-        Lokal PomieszczenieZaDrzwiamiWejsciowymi { get; set; }
+        string MiejsceDoUkrycia { get; }
     }
 }

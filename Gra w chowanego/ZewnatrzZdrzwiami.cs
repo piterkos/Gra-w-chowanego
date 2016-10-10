@@ -4,17 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mieszkanie_s._338
+namespace Gra_w_chowanego
 {
-    class LokacjaWewnetrznazDrzwiami:Pomieszczenie, IPosiadaDrzwiZewnetrzne
+    class ZewnatrzZdrzwiami : ZewnatrzZkryjowka, IPosiadaDrzwiZewnetrzne
     {
-        public LokacjaWewnetrznazDrzwiami(string nazwa, string _opisDrzwi, string dekoracje) : base(nazwa,dekoracje)
+        public ZewnatrzZdrzwiami(string nazwa, bool czyCieplo, string opisDrzwi, string kryjowka) : base(nazwa, czyCieplo, kryjowka)
         {
-            this.opisDrzwi = _opisDrzwi;
+            this.opisDrzwi = opisDrzwi;
         }
-        Lokacja lokacjaDrzwi;
+        Lokal lokacjaDrzwi;
         string opisDrzwi;
-        public Lokacja LokacjaDrzwi
+        public Lokal PomieszczenieZaDrzwiamiWejsciowymi
         {
             get
             {
@@ -33,7 +33,7 @@ namespace Mieszkanie_s._338
             {
                 return opisDrzwi;
             }
-            
+
         }
     }
 }
